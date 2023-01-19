@@ -1,0 +1,32 @@
+{
+  "data": [
+    {"time_start$": 0, "time_end$": 2200, "function_name$": "main", "parent_name$": "", "control$": []},
+    {"time_start$": 50, "time_end$": 2200, "function_name$": "drawCurve", "parent_name$": "main", "control$": []},
+    {"time_start$": 100, "time_end$": 500, "function_name$": "evaluate_0", "parent_name$": "drawCurve", "control$": [["if1", "true"], ["if2", "true"]]},
+    {"time_start$": 110, "time_end$": 210, "function_name$": "nChooseK", "parent_name$": "evaluate_0", "control$": [["if3", "true"], ["for1"]]},
+    {"time_start$": 220, "time_end$": 340, "function_name$": "nChooseK", "parent_name$": "evaluate_0", "control$": [["if3", "true"], ["for1"]]},
+    {"time_start$": 350, "time_end$": 490, "function_name$": "nChooseK", "parent_name$": "evaluate_0", "control$": [["if3", "true"], ["for1"]]},
+    {"time_start$": 510, "time_end$": 900, "function_name$": "evaluate_1", "parent_name$": "drawCurve", "control$": [["if1", "true"], ["if2", "true"], ["for2"]]},
+    {"time_start$": 520, "time_end$": 640, "function_name$": "nChooseK", "parent_name$": "evaluate_1", "control$": [["if3", "true"], ["for1"]]},
+    {"time_start$": 650, "time_end$": 760, "function_name$": "nChooseK", "parent_name$": "evaluate_1", "control$": [["if3", "true"], ["for1"]]},
+    {"time_start$": 770, "time_end$": 890, "function_name$": "nChooseK", "parent_name$": "evaluate_1", "control$": [["if3", "true"], ["for1"]]},
+    {"time_start$": 910, "time_end$": 1100, "function_name$": "drawLine", "parent_name$": "drawCurve", "control$": [["if1", "true"], ["if2", "true"], ["for2"]]},
+    {"time_start$": 1110, "time_end$": 1510, "function_name$": "evaluate_1", "parent_name$": "drawCurve", "control$": [["if1", "true"], ["if2", "true"], ["for2"]]},
+    {"time_start$": 1120, "time_end$": 1240, "function_name$": "nChooseK", "parent_name$": "evaluate_1", "control$": [["if3", "true"], ["for1"]]},
+    {"time_start$": 1250, "time_end$": 1380, "function_name$": "nChooseK", "parent_name$": "evaluate_1", "control$": [["if3", "true"], ["for1"]]},
+    {"time_start$": 1390, "time_end$": 1500, "function_name$": "nChooseK", "parent_name$": "evaluate_1", "control$": [["if3", "true"], ["for1"]]},
+    {"time_start$": 1520, "time_end$": 1700, "function_name$": "drawLine", "parent_name$": "drawCurve", "control$": [["if1", "true"], ["if2", "true"], ["for2"]]},
+    {"time_start$": 1710, "time_end$": 2100, "function_name$": "evaluate_1", "parent_name$": "drawCurve", "control$": [["if1", "true"], ["if2", "true"], ["for2"]]},
+    {"time_start$": 1720, "time_end$": 1840, "function_name$": "nChooseK", "parent_name$": "evaluate_1", "control$": [["if3", "true"], ["for1"]]},
+    {"time_start$": 1850, "time_end$": 1960, "function_name$": "nChooseK", "parent_name$": "evaluate_1", "control$": [["if3", "true"], ["for1"]]},
+    {"time_start$": 1970, "time_end$": 2090, "function_name$": "nChooseK", "parent_name$": "evaluate_1", "control$": [["if3", "true"], ["for1"]]},
+    {"time_start$": 2110, "time_end$": 2200, "function_name$": "drawLine", "parent_name$": "drawCurve", "control$": [["if1", "true"], ["if2", "true"], ["for2"]]}
+  ],
+  "conditionalMap": {
+    "if1": "if (this.control_points.length >= 2)",
+    "if2": "if (this.curve_mode == \"Basic\")",
+    "if3": "if (t >= 0.0 && t <= 1.000005 && this.control_points.length > 1)",
+    "for1": "for (let i = 0; i < this.control_points.length; i++)",
+    "for2": "for (let t = samp_dist; t<=1.000005; t+= samp_dist)"
+  }
+}

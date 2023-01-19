@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "time_start$": 1669587876457,
+      "time_end$": 1669587876462,
+      "function_name$": "getFactorial_94",
+      "parent_name$": "",
+      "control$": []
+    },
+    {
+      "time_start$": 1669587876458,
+      "time_end$": 1669587876462,
+      "function_name$": "2_getFactorial_79",
+      "parent_name$": "getFactorial_94",
+      "control$": [
+        [
+          "if29",
+          "false"
+        ]
+      ]
+    },
+    {
+      "time_start$": 1669587876458,
+      "time_end$": 1669587876462,
+      "function_name$": "3_getFactorial_79",
+      "parent_name$": "2_getFactorial_79",
+      "control$": [
+        [
+          "if29",
+          "false"
+        ]
+      ]
+    },
+    {
+      "time_start$": 1669587876458,
+      "time_end$": 1669587876462,
+      "function_name$": "4_getFactorial_79",
+      "parent_name$": "3_getFactorial_79",
+      "control$": [
+        [
+          "if29",
+          "false"
+        ]
+      ]
+    },
+    {
+      "time_start$": 1669587876458,
+      "time_end$": 1669587876462,
+      "function_name$": "5_getFactorial_79",
+      "parent_name$": "4_getFactorial_79",
+      "control$": [
+        [
+          "if29",
+          "false"
+        ]
+      ]
+    },
+    {
+      "time_start$": 1669587876458,
+      "time_end$": 1669587876462,
+      "function_name$": "giveSecretMessage_70",
+      "parent_name$": "5_getFactorial_79",
+      "control$": [
+        [
+          "if29",
+          "true"
+        ]
+      ]
+    }
+  ],
+  "conditionalMap": {
+    "if29": "if (n == 1)"
+  }
+}
