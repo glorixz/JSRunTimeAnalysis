@@ -1,0 +1,52 @@
+/*Sequence Diagram*/
+.class-rect{
+    border: 1px;
+    fill: white;
+    stroke-width: 1px;
+    stroke: black;
+}
+.class-label{
+    font-size: x-small;
+    font-weight: bold;
+}
+
+div.tooltip-sequence {
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    background: #FFFFFF;
+    color: #313639;
+    border: 1px solid #313639;
+    border-radius: 8px;
+    pointer-events: none;
+    font-size: x-small;
+}
+
+/*Flow diagram*/
+.tooltip {
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(242, 250, 235);
+    border-radius: 3px;
+    box-shadow: rgb(174, 174, 174) 0px 0px 10px;
+    cursor: pointer;
+    display: inline-block;
+    padding:10px;
+}
+
+.tooltip>div {
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}

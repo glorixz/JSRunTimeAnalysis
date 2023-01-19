@@ -1,0 +1,31 @@
+<HTML lang="en">
+<meta charset="utf-8">
+<HEAD>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <TITLE>Runtime visualization</TITLE>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://dagrejs.github.io/project/dagre-d3/latest/dagre-d3.min.js"></script>
+</HEAD>
+
+<BODY>
+<h1>Runtime visualization</h1>
+<div class="flex-container">
+    <div id="myDiagram" class="flex-child" style="width:800px; height:500px; background-color: #F2FAEB;">
+        <svg id="myDiagramHeader"></svg>
+        <svg id="myDiagramLabels"></svg>
+        <svg id="myDiagramSvg"></svg>
+        <script type="module" src="sequenceDiagram.js"></script>
+    </div>
+
+    <div id="flowDiagram" class="flex-child">
+        <svg id="flowDiagramSvg" width="960" height="600"></svg>
+        <script type="module" src="flowDiagram.js"></script>
+    </div>
+</div>
+
+
+</BODY>
+
+</HTML>
