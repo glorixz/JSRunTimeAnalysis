@@ -1,6 +1,8 @@
 
 # Dynamic Program Analysis Tool for Runtime and Control Flow
 
+Contributors: Gloria Zhang, Heyisen Li, Catherine Li, Sam Hsu
+
 ## About the tool
 Our analysis tool is used to track the runtimes and control flow of user-defined functions within a program.
 
