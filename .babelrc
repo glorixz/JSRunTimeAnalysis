@@ -1,0 +1,6 @@
+{
+    // the plugins don't accept Typscript
+    "plugins": [
+        "./src/index.js"
+      ]
+}

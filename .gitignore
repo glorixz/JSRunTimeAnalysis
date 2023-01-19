@@ -1,0 +1,10 @@
+node_modules
+dist
+
+.idea/*
+
+# Program Analysis Output
+babel-dist
+src/index.js
+output
+data/output.json
